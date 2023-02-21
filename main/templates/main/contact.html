@@ -1,0 +1,15 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Контактные данные:{% endblock %}
+
+
+{% block content %}
+    <div class="features">
+         <h1>Контактные данные:</h1>
+        <p>Мы работаем ежедневно, с 10:00 до 21:00
+        Номер телефона: +998(91)775-58-77
+        Почта: safarovmirshod@gmail.com
+        Адрес: город.Ташкент, парк Ашхабад</p>
+        <a href="{% url 'about' %}"><button class="btn btn-warning">На страницу про нас</button></a>
+    </div>
+{% endblock %}
